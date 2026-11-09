@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node List</title>
+  </head>
+  <body>
+    <ul id="menu1">
+      <li id="satu">satu</li>
+      <li id="dua">dua</li>
+      <li id="tiga">tiga</li>
+    </ul>
+    <ul id="menu2">
+      <li id="farhan">farhan</li>
+      <li id="sabillah">sabillah</li>
+    </ul>
+    <script>
+      const menu1 = document.getElementById("menu1");
+      const list1 = menu1.childNodes;
+
+      menu1.append(document.createElement("li"));
+      menu1.append(document.createElement("li"));
+
+      console.info(list1);
+    </script>
+  </body>
+</html>

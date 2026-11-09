@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content" id="content"></div>
+    <script>
+      const content = document.getElementById("content");
+      const title = document.createElement("h1");
+      title.textContent = "belajar js dom ";
+      content.appendChild(title);
+
+      const deskripsi = document.createElement("p");
+      deskripsi.textContent = "deskripsi ";
+      content.appendChild(deskripsi);
+    </script>
+  </body>
+</html>
